@@ -1,7 +1,7 @@
 package org.smart4j.framework.util;
 
 /**
- * Created by stando on 2016/8/29.
+ * Created by Mcfell on 2016/8/29.
  */
 public class CastUtil {
     public static int castInt(Object property) {

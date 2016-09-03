@@ -6,7 +6,7 @@ import org.smart4j.framework.util.PropUtils;
 import java.util.Properties;
 
 /**
- * Created by Administrator on 2016/9/2.
+ * Created by Mcfell on 2016/9/2.
  */
 public class ConfigHelper {
     private static final Properties CONFIG_PROPS = PropUtils.loadProps(ConfigConstant.CONFIG_FILE);

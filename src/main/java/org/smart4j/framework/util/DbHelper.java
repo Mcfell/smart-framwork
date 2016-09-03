@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by A8401 on 16/8/30.
+ * Created by Mcfell on 16/8/30.
  */
 public class DbHelper {
     private static final Logger LOGGER = LoggerFactory.getLogger(DbHelper.class);

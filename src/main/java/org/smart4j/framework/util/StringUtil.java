@@ -3,7 +3,7 @@ package org.smart4j.framework.util;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * Created by stando on 2016/8/29.
+ * Created by Mcfell on 2016/8/29.
  */
 public class StringUtil {
     public static boolean isEmpty(String value) {

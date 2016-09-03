@@ -1,7 +1,7 @@
 package org.smart4j.framework;
 
 /**
- * Created by A8401 on 16/8/31.
+ * Created by Mcfell on 16/8/31.
  */
 public class ConfigConstant {
     public static final String CONFIG_FILE = "smart.properties";

@@ -8,7 +8,6 @@ import java.io.FileFilter;
 import java.io.IOException;
 import java.net.JarURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Set;
@@ -46,6 +45,11 @@ public class ClassUtil {
         return cls;
     }
 
+    /**
+     * 获取加载制定包中的类
+     * @param packageName
+     * @return
+     */
     public static Set<Class<?>> getClassSet(String packageName) {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
         try {
