@@ -124,4 +124,7 @@ public class ClassUtil {
         classSet.add(cls);
     }
 
+    public static void loadClass(String name) {
+        loadClass(name,false);
+    }
 }

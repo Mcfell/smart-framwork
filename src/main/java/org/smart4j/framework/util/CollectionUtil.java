@@ -20,7 +20,7 @@ public class CollectionUtil {
     public static boolean isEmpty(Map<?,?> map) {
         return MapUtils.isEmpty(map);
     }
-    public static boolean isNotEmpyt(Map<?,?> map) {
+    public static boolean isNotEmpty(Map<?,?> map) {
         return !isEmpty(map);
     }
 }
